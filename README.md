@@ -1,18 +1,13 @@
-# Billy Morley website — launch cleanup
+# Billy Morley website — full content version
 
-This update keeps the existing design and adds launch-readiness improvements:
+Upload every file in this folder to the top level of the existing `BillyMorleyMusic` GitHub repository and replace files with matching names.
 
-- Removes the public drafting notes from the About and Media pages
-- Adds canonical URLs to all public pages
-- Adds basic Open Graph and Twitter sharing metadata
-- Adds `sitemap.xml`
-- Links the sitemap from `robots.txt`
-- Marks the custom 404 page as `noindex`
-- Adds the live website URL to homepage structured data
+This version adds:
+- Expanded homepage and About content
+- Stronger session guitar, lesson and tour-management pages
+- Qualifications and selected experience from the previous planning chat
+- Three practical SEO guide articles and a Guides page
+- Updated navigation, sitemap, metadata and structured data
+- More specific enquiry routes
 
-## Uploading to GitHub
-
-Upload every file in this folder to the top level of the existing
-`BillyMorleyMusic` repository. Allow GitHub to replace files with the same names.
-
-The new file `sitemap.xml` must also be uploaded.
+No reviews, phone number, prices or social profiles have been invented. Add those only when exact public details are available.
