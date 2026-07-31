@@ -1,35 +1,18 @@
-# Billy Morley website — version 2
+# Billy Morley website — launch cleanup
 
-A fast, static multi-page website designed for GitHub Pages.
+This update keeps the existing design and adds launch-readiness improvements:
 
-## Files to upload
+- Removes the public drafting notes from the About and Media pages
+- Adds canonical URLs to all public pages
+- Adds basic Open Graph and Twitter sharing metadata
+- Adds `sitemap.xml`
+- Links the sitemap from `robots.txt`
+- Marks the custom 404 page as `noindex`
+- Adds the live website URL to homepage structured data
 
-Upload every file in this folder to the root of the GitHub repository:
+## Uploading to GitHub
 
-- `index.html`
-- `session-guitarist.html`
-- `guitar-lessons.html`
-- `tour-management.html`
-- `about.html`
-- `media.html`
-- `contact.html`
-- `404.html`
-- `styles.css`
-- `script.js`
-- `favicon.svg`
-- `robots.txt`
+Upload every file in this folder to the top level of the existing
+`BillyMorleyMusic` repository. Allow GitHub to replace files with the same names.
 
-## Before calling this version finished
-
-Replace or confirm the following details:
-
-1. Confirm that “South Wales” is the correct public location wording.
-2. Add genuine testimonials and the reviewer’s approved name/description.
-3. Add verified artist, band, broadcaster, festival and touring credits.
-4. Add qualifications, DBS status or teaching credentials only if accurate and current.
-5. Add current lesson pricing or a “prices from” figure if you want prices public.
-6. Add more YouTube links to `media.html`.
-7. Add professional photographs when available.
-8. Create a sitemap after the final GitHub Pages or custom-domain address is known.
-
-No fake reviews, credits, qualifications or prices have been added.
+The new file `sitemap.xml` must also be uploaded.
