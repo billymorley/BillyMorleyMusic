@@ -1,13 +1,18 @@
-# Billy Morley website — full content version
+# Billy Morley website - version 6
 
-Upload every file in this folder to the top level of the existing `BillyMorleyMusic` GitHub repository and replace files with matching names.
+This update adds:
 
-This version adds:
-- Expanded homepage and About content
-- Stronger session guitar, lesson and tour-management pages
-- Qualifications and selected experience from the previous planning chat
-- Three practical SEO guide articles and a Guides page
-- Updated navigation, sitemap, metadata and structured data
-- More specific enquiry routes
+- Fifteen additional YouTube videos, plus the existing featured performance
+- A fast click-to-load video gallery using YouTube privacy-enhanced embeds
+- Phone and WhatsApp contact links throughout the site
+- Phone details on the contact page, EPK page and downloadable PDF EPK
+- A prepared Spotify playlist section on the Media page
+- A repair for the enquiry-form JavaScript
+- Removal of an internal drafting note from the public EPK
 
-No reviews, phone number, prices or social profiles have been invented. Add those only when exact public details are available.
+## Uploading
+
+Upload every file inside this folder to the top level of the existing
+`BillyMorleyMusic` GitHub repository. Replace files with matching names.
+
+When the Spotify playlist is ready, supply its public Spotify link for the next update.
