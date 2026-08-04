@@ -1,24 +1,18 @@
 # Content still requiring exact information
 
-The site structure is complete, but these details were not present in the attached chat and have not been invented:
-
 - Exact guitar, amplifier, pedal and recording-equipment models
 - Approved testimonial wording and reviewer attribution
 - Current lesson prices or “prices from” figures
-- Public phone / WhatsApp number
 - Instagram and other social profile URLs
 - Exact teaching location or an address suitable for a map
-- Professional photographs and captions
-- Additional YouTube video links and titles
+- A genuine guitar-lesson photograph
+- Studio or remote-recording photographs
+- Tour-management and on-the-road photographs
+- Confirmed photographer credits and publication permissions for all supplied photography
 - Role-specific confirmation for every named artist or broadcaster credit
 
-`reviews.html` is deliberately marked `noindex` until genuine reviews are added.
+`reviews.html` remains marked `noindex` until genuine reviews are added.
 
+## Photo pass notes
 
-## Added in version 6
-
-- Phone: 07772 888769
-- WhatsApp: https://wa.me/447772888769
-- 16 total videos on the Media page
-- Spotify section prepared; public playlist link still required
-- The video `xTVdemO9zwo` is labelled "Selected performance" because a reliable title was not available.
+Selected images have been converted to WebP and placed in `assets/images/`. The SUNS Europe award image carries the credit “Luca Chiandoni” based on its supplied filename. Other credits have not been invented.
