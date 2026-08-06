@@ -4,6 +4,7 @@ const navigation=document.querySelector('.nav-links');
 if(menuButton&&navigation){
   const closeMenu=()=>{
     menuButton.setAttribute('aria-expanded','false');
+    menuButton.setAttribute('aria-label','Open navigation menu');
     navigation.classList.remove('is-open');
     document.body.classList.remove('menu-open');
   };
@@ -11,6 +12,7 @@ if(menuButton&&navigation){
   menuButton.addEventListener('click',()=>{
     const isOpen=menuButton.getAttribute('aria-expanded')==='true';
     menuButton.setAttribute('aria-expanded',String(!isOpen));
+    menuButton.setAttribute('aria-label',isOpen?'Open navigation menu':'Close navigation menu');
     navigation.classList.toggle('is-open',!isOpen);
     document.body.classList.toggle('menu-open',!isOpen);
   });
@@ -18,6 +20,9 @@ if(menuButton&&navigation){
   navigation.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeMenu));
   document.addEventListener('keydown',event=>{
     if(event.key==='Escape') closeMenu();
+  });
+  window.addEventListener('resize',()=>{
+    if(window.innerWidth>760) closeMenu();
   });
 }
 
